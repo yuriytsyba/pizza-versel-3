@@ -1,0 +1,41 @@
+.root {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    &:hover {
+      transition: all 0.3s;
+      cursor: pointer;
+      background-color: orangered;
+      border-radius: 50%;
+      color: white;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 35px;
+    margin-right: 35px;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 600;
+    height: 24px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    &:hover {
+      transition: all 0.3s;
+      cursor: pointer;
+      background-color: orangered;
+      border-radius: 50%;
+      color: white;
+    }
+  }
+}

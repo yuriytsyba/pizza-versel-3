@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "/img/p-1.jpg",
+    "title": "Чизбургер-пицца",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 35,
+    "category": 4,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "/img/p-2.jpg",
+    "title": "Сырная",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 30,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "imageUrl": "/img/p-3.jpg",
+    "title": "Креветки по-азиатски",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": 29,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "/img/p-4.jpg",
+    "title": "Сырный цыпленок",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 22,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "imageUrl": "/img/p-5.jpg",
+    "title": "Колбасная",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": 27,
+    "category": 5,
+    "rating": 4
+  }
+]

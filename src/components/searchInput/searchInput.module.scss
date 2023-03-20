@@ -1,0 +1,32 @@
+.root {
+  position: relative;
+}
+.input {
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  padding: 0 40px;
+  &:focus {
+    outline: none;
+    border: 2px solid orangered;
+  }
+}
+.search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 25px;
+  height: 25px;
+}
+.close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: 12px;
+  height: 10px;
+  opacity: 0.4;
+}

@@ -1,0 +1,31 @@
+.categories {
+  margin-right: 30px;
+  ul {
+    max-width: 800px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    flex-wrap: wrap;
+    .active {
+      color: #fff;
+      background: #282828;
+    }
+  }
+  li {
+    padding: 14px 25px;
+    background: #ebe7e7;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #2c2c2c;
+  }
+}
+
+@media (max-width: 629px) {
+  .categories {
+    margin-right: 0;
+  }
+}
